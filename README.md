@@ -1,3 +1,3 @@
 # Attendace-With-FaceRecognition
-#AI Semester Project 
-#Use Python Tkinter For Gui 
+AI Semester Project 
+Use Python Tkinter For Gui 
