@@ -117,7 +117,7 @@ def AttendanceRecord():
     tf.pack(pady=20)
     text_file = open("Attendace.txt",'r')
     Record =text_file.read()
-    tf.insert(END,tf)
+    tf.insert(END,Record)
     text_file.close()
     buttonA = Button(AttendanceRecord.newWindow, text="Back",command= back)
     buttonA.place(bordermode=INSIDE, relx=0.91, rely=0.12, anchor=CENTER, width=100, height=40)
